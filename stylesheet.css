@@ -1,0 +1,118 @@
+
+html h1 {
+	margin:0;
+}
+
+body {
+	font-size: 14px;
+	font-family: "helvetica Neue", Helvetica, Verdana, sans-serif;
+	background-image: url("polaroid.png");
+}
+
+.container {
+	/*width:910px;*/
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url("cream_dust.png");
+	/*background-image: url("cream_pixels.png");*/
+	/*background-image: url("crossword.png");*/
+	/*background-color: #FFF1DE;*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	overflow: auto;
+}
+
+header {
+	margin: 0 auto 0;
+	padding: 0;
+	clear: both;
+	border:2px solid gray;
+	border-radius: 10px;
+	/*width: 870px;   deleting to try the header spanning entire width*/
+	height: 125px;
+	text-align: center;
+}
+h1 {
+	padding-top: 18px;
+
+}
+h3 {
+	padding-top: 20px;
+	margin: 4px;
+}
+
+p{
+	margin: 4px;
+}
+
+nav {
+	float:left;
+	width: 30%;
+	border: 2px solid gray;
+	height: 500px;
+	width: 200px;
+	margin-top: 20px;
+	margin-left: 0;
+	margin-right: 20px;
+	background-color: red;
+	border-radius: 10px;
+
+}
+ul {
+	padding: 10px;
+}
+li {
+	padding: 10px;
+	margin: 5px;
+	border: 2px solid gray;
+	border-radius: 10px;
+	list-style-type: none;
+	display: inherit;
+}
+a {
+	text-decoration: none;
+	color: black;
+	text-align: center;
+
+}
+a:hover, a:active; {
+	color: aliceblue;
+}
+
+/*.sidepic is not centering*/
+.sidepic {
+	position: relative;
+	margin-left: 24px;
+}
+.quote {
+	text-align: center;
+	padding: 12px;
+	font-family: "script";
+}
+.content {
+	margin:22px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.bodypic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.article {
+	font-size: 20px;
+	padding: 10px;
+	margin-top: 16px;
+}
+footer{
+	font-size: .80em;
+	min-height: 40px;
+	text-align: center;
+	margin:20px;
+	clear: both;
+	margin:10px;
+	padding: 20px;
+}
