@@ -109,6 +109,12 @@ a:hover, a:active; {
 	padding: 10px;
 	margin-top: 16px;
 }
+.map{
+	float:left;
+	text-align: left;
+	padding: 10px;
+	margin-left: 16px;
+}
 footer{
 	font-size: .80em;
 	min-height: 40px;
