@@ -80,6 +80,17 @@ a:hover, a:active; {
 	color: aliceblue;
 }
 
+#links li {
+	border: none;
+	
+
+}
+#links li a {
+	color: blue;
+
+}
+
+
 /*.sidepic is not centering*/
 .sidepic {
 	position: relative;
@@ -107,6 +118,7 @@ a:hover, a:active; {
 	padding: 10px;
 	margin-top: 16px;
 }
+
 .feedback {
 	float: left;
 	margin-left: auto;
@@ -114,6 +126,14 @@ a:hover, a:active; {
 }
 
 
+
+
+.map{
+	float:left;
+	text-align: left;
+	padding: 10px;
+	margin-left: 16px;
+}
 
 footer{
 	font-size: .80em;
@@ -123,6 +143,7 @@ footer{
 	clear: both;
 	margin:10px;
 	padding: 20px;
+
 }
 ul#toc {
 	height: 2em;
@@ -152,4 +173,6 @@ ul#toc li.current a {
 div.menu {
 	border: #48f solid 3px;
 	padding: 1em;
+=======
+
 }
