@@ -79,8 +79,15 @@ a {
 a:hover, a:active; {
 	color: aliceblue;
 }
+#links li {
+	border: none;
+	
 
+}
+#links li a {
+	color: blue;
 
+}
 
 /*.sidepic is not centering*/
 .sidepic {
