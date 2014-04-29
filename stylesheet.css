@@ -6,18 +6,22 @@ html h1 {
 body {
 	font-size: 14px;
 	font-family: "helvetica Neue", Helvetica, Verdana, sans-serif;
-	background-image: url("polaroid.png");
+	/*background-image: url("polaroid.png");*/
+	/*background-color:#87B1F5;*/
+	background-color: #A8C4E8; 
+	margin-left: 120px;
+	margin-right: 120px;
 }
 
 .container {
 	/*width:910px;*/
 	margin-left:auto;
 	margin-right:auto;
-	background-image: url("cream_dust.png");
+	/*background-image: url("cream_dust.png");*/
 	/*background-image: url("cream_pixels.png");*/
 	/*background-image: url("crossword.png");*/
-	/*background-color: #FFF1DE;*/
-	-webkit-border-radius: 10px;
+	
+	background-color: #D9EEFF;	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	overflow: auto;
@@ -27,7 +31,7 @@ header {
 	margin: 0 auto 0;
 	padding: 0;
 	clear: both;
-	border:2px solid gray;
+	/*border:2px solid gray;*/
 	border-radius: 10px;
 	/*width: 870px;   deleting to try the header spanning entire width*/
 	height: 125px;
@@ -46,16 +50,36 @@ p{
 	margin: 4px;
 }
 
+ hr.flare {
+    height: 50px;
+    border-style: ridge;
+    border-color: gray;
+    border-width: 2px 0 0 0;
+    border-radius: 45px;
+}
+hr.flare:before {
+    display: block;
+    content: "";
+    height: 50px;
+    margin-top: -51px;
+    border-style: ridge;
+    border-color: gray;
+    border-width: 0 0 2px 0;
+    border-radius: 45px;
+}
+		
+
+
 nav {
 	float:left;
 	width: 30%;
-	border: 2px solid gray;
+	/*border: 2px solid gray;*/
 	height: 500px;
 	width: 200px;
 	margin-top: 20px;
 	margin-left: 0;
 	margin-right: 20px;
-	background-color: red;
+	/*background-color: #4D87CC;*/
 	border-radius: 10px;
 
 }
@@ -65,10 +89,12 @@ ul {
 li {
 	padding: 10px;
 	margin: 5px;
-	border: 2px solid gray;
+	/*border: 2px solid gray;*/
 	border-radius: 10px;
 	list-style-type: none;
 	display: inherit;
+	background-color: white;
+	opacity: 0.5;
 }
 a {
 	text-decoration: none;
@@ -76,7 +102,11 @@ a {
 	text-align: center;
 
 }
-a:hover, a:active; {
+a:hover {
+	color: alice blue;
+}
+
+ a:active; {
 	color: aliceblue;
 }
 
@@ -95,6 +125,8 @@ a:hover, a:active; {
 .sidepic {
 	position: relative;
 	margin-left: 24px;
+	opacity: 0.8;
+
 }
 .quote {
 	text-align: center;
@@ -112,6 +144,7 @@ a:hover, a:active; {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	opacity: 0.8;
 }
 .article {
 	font-size: 20px;
@@ -123,6 +156,10 @@ a:hover, a:active; {
 	float: left;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+h2 {
+	margin-top:37px;
 }
 
 
@@ -171,7 +208,7 @@ ul#toc li.current a {
 	font-weight: bold;
 }
 div.menu {
-	border: #48f solid 3px;
+	/*border: #48f solid 3px; No border needed*/
 	padding: 1em;
 =======
 
