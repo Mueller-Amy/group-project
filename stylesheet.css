@@ -7,7 +7,6 @@ body {
 	font-size: 14px;
 	font-family: "helvetica Neue", Helvetica, Verdana, sans-serif;
 	/*background-image: url("polaroid.png");*/
-	/*background-color:#87B1F5;*/
 	background-color: #A8C4E8; 
 	margin-left: 120px;
 	margin-right: 120px;
@@ -17,11 +16,12 @@ body {
 	/*width:910px;*/
 	margin-left:auto;
 	margin-right:auto;
+	background-color: #D9EEFF;
 	/*background-image: url("cream_dust.png");*/
 	/*background-image: url("cream_pixels.png");*/
 	/*background-image: url("crossword.png");*/
-	
-	background-color: #D9EEFF;	-webkit-border-radius: 10px;
+	/*background-color: #FFF1DE;*/
+	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	overflow: auto;
@@ -31,7 +31,7 @@ header {
 	margin: 0 auto 0;
 	padding: 0;
 	clear: both;
-	/*border:2px solid gray;*/
+	
 	border-radius: 10px;
 	/*width: 870px;   deleting to try the header spanning entire width*/
 	height: 125px;
@@ -49,8 +49,7 @@ h3 {
 p{
 	margin: 4px;
 }
-
- hr.flare {
+hr.flare {
     height: 50px;
     border-style: ridge;
     border-color: gray;
@@ -67,8 +66,6 @@ hr.flare:before {
     border-width: 0 0 2px 0;
     border-radius: 45px;
 }
-		
-
 
 nav {
 	float:left;
@@ -79,7 +76,7 @@ nav {
 	margin-top: 20px;
 	margin-left: 0;
 	margin-right: 20px;
-	/*background-color: #4D87CC;*/
+	/*background-color: red;*/
 	border-radius: 10px;
 
 }
@@ -89,7 +86,7 @@ ul {
 li {
 	padding: 10px;
 	margin: 5px;
-	/*border: 2px solid gray;*/
+	
 	border-radius: 10px;
 	list-style-type: none;
 	display: inherit;
@@ -103,16 +100,15 @@ a {
 
 }
 a:hover {
-	color: alice blue;
+	color: #4E7AC7;
 }
-
  a:active; {
-	color: aliceblue;
+	color: #4E7AC7;
 }
 
 #links li {
 	border: none;
-	
+
 
 }
 #links li a {
@@ -126,7 +122,6 @@ a:hover {
 	position: relative;
 	margin-left: 24px;
 	opacity: 0.8;
-
 }
 .quote {
 	text-align: center;
@@ -144,25 +139,30 @@ a:hover {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 50px;
+	margin-left:200px;
 	opacity: 0.8;
 }
 .article {
 	font-size: 20px;
 	padding: 10px;
 	margin-top: 16px;
+	padding-top:1px;
+	margin-left:185px;
+	margin-right: 45px;
+	
 }
 
 .feedback {
 	float: left;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top:25px;
 }
 
 h2 {
-	margin-top:37px;
+	margin-top: 20px;
 }
-
-
 
 
 .map{
@@ -191,7 +191,7 @@ ul#toc {
 ul#toc li{
 	background: #bdf url(tabs.gif);
 	float: left;
-	margin:0 1px 0 0;
+	margin:0 5px 0 0;
 	padding-left:10px;
 }
 ul#toc a{
@@ -207,9 +207,14 @@ ul#toc li.current a {
 	color: #fff;
 	font-weight: bold;
 }
-div.menu {
-	/*border: #48f solid 3px; No border needed*/
+.menu {
+	/*border: #48f solid 3px;*/
 	padding: 1em;
+	margin-top:14px;
+	width: 750px;
+	
+
+
 =======
 
 }
