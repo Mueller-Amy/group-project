@@ -151,6 +151,7 @@ a:hover {
 	margin-right: auto;
 	margin-top: 50px;
 	margin-left:200px;
+	float
 	opacity: 0.8;
 }
 .article {
@@ -159,7 +160,7 @@ a:hover {
 	margin-top: 16px;
 	padding-top:1px;
 	margin-left:185px;
-	margin-right: 45px;
+	margin-right: 105px;
 	opacity:0.8;
 	
 }
