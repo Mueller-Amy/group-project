@@ -5,11 +5,13 @@ html h1 {
 
 body {
 	font-size: 14px;
-	font-family: "helvetica Neue", Helvetica, Verdana, sans-serif;
+	/*font-family: "helvetica Neue", Helvetica, Verdana, sans-serif;*/
 	/*background-image: url("polaroid.png");*/
+	font-family: Tahoma, Arial, Geneva, Verdana, sans-serif;
 	background-color: #A8C4E8; 
 	margin-left: 120px;
 	margin-right: 120px;
+	opacity:0.8;
 }
 
 .container {
@@ -21,6 +23,7 @@ body {
 	/*background-image: url("cream_pixels.png");*/
 	/*background-image: url("crossword.png");*/
 	/*background-color: #FFF1DE;*/
+  font-family: Tahoma, Arial, Geneva, Verdana, sans-serif;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
@@ -36,18 +39,24 @@ header {
 	/*width: 870px;   deleting to try the header spanning entire width*/
 	height: 125px;
 	text-align: center;
+	opacity:0.9;
 }
 h1 {
 	padding-top: 18px;
+	opacity:0.8;
+	font-family: cursive;
 
 }
 h3 {
-	padding-top: 20px;
+	padding-top: 10px;
 	margin: 4px;
+	opacity:0.8;
+	font-family: cursive;
 }
 
 p{
 	margin: 4px;
+	opacity:0.8;
 }
 hr.flare {
     height: 50px;
@@ -78,6 +87,7 @@ nav {
 	margin-right: 20px;
 	/*background-color: red;*/
 	border-radius: 10px;
+	opacity:0.9;
 
 }
 ul {
@@ -121,7 +131,7 @@ a:hover {
 .sidepic {
 	position: relative;
 	margin-left: 24px;
-	opacity: 0.8;
+	opacity: 0.9;
 }
 .quote {
 	text-align: center;
@@ -141,6 +151,7 @@ a:hover {
 	margin-right: auto;
 	margin-top: 50px;
 	margin-left:200px;
+	float
 	opacity: 0.8;
 }
 .article {
@@ -149,7 +160,8 @@ a:hover {
 	margin-top: 16px;
 	padding-top:1px;
 	margin-left:185px;
-	margin-right: 45px;
+	margin-right: 105px;
+	opacity:0.8;
 	
 }
 
@@ -162,6 +174,8 @@ a:hover {
 
 h2 {
 	margin-top: 20px;
+	opacity:0.7;
+	font-family: cursive;
 }
 
 
