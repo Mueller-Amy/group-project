@@ -5,18 +5,25 @@ html h1 {
 
 body {
 	font-size: 14px;
-	font-family: "helvetica Neue", Helvetica, Verdana, sans-serif;
-	background-image: url("polaroid.png");
+	/*font-family: "helvetica Neue", Helvetica, Verdana, sans-serif;*/
+	/*background-image: url("polaroid.png");*/
+	font-family: Tahoma, Arial, Geneva, Verdana, sans-serif;
+	background-color: #A8C4E8; 
+	margin-left: 120px;
+	margin-right: 120px;
+	opacity:0.8;
 }
 
 .container {
 	/*width:910px;*/
 	margin-left:auto;
 	margin-right:auto;
-	background-image: url("cream_dust.png");
+	background-color: #D9EEFF;
+	/*background-image: url("cream_dust.png");*/
 	/*background-image: url("cream_pixels.png");*/
 	/*background-image: url("crossword.png");*/
 	/*background-color: #FFF1DE;*/
+  font-family: Tahoma, Arial, Geneva, Verdana, sans-serif;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
@@ -27,36 +34,60 @@ header {
 	margin: 0 auto 0;
 	padding: 0;
 	clear: both;
-	border:2px solid gray;
+	
 	border-radius: 10px;
 	/*width: 870px;   deleting to try the header spanning entire width*/
 	height: 125px;
 	text-align: center;
+	opacity:0.9;
 }
 h1 {
 	padding-top: 18px;
+	opacity:0.8;
+	font-family: cursive;
 
 }
 h3 {
-	padding-top: 20px;
+	padding-top: 10px;
 	margin: 4px;
+	opacity:0.8;
+	font-family: cursive;
 }
 
 p{
 	margin: 4px;
+	opacity:0.8;
+}
+hr.flare {
+    height: 50px;
+    border-style: ridge;
+    border-color: gray;
+    border-width: 2px 0 0 0;
+    border-radius: 45px;
+}
+hr.flare:before {
+    display: block;
+    content: "";
+    height: 50px;
+    margin-top: -51px;
+    border-style: ridge;
+    border-color: gray;
+    border-width: 0 0 2px 0;
+    border-radius: 45px;
 }
 
 nav {
 	float:left;
 	width: 30%;
-	border: 2px solid gray;
+	/*border: 2px solid gray;*/
 	height: 500px;
 	width: 200px;
 	margin-top: 20px;
 	margin-left: 0;
 	margin-right: 20px;
-	background-color: red;
+	/*background-color: red;*/
 	border-radius: 10px;
+	opacity:0.9;
 
 }
 ul {
@@ -65,10 +96,12 @@ ul {
 li {
 	padding: 10px;
 	margin: 5px;
-	border: 2px solid gray;
+	
 	border-radius: 10px;
 	list-style-type: none;
 	display: inherit;
+	background-color: white;
+	opacity: 0.5;
 }
 a {
 	text-decoration: none;
@@ -76,13 +109,16 @@ a {
 	text-align: center;
 
 }
-a:hover, a:active; {
-	color: aliceblue;
+a:hover {
+	color: #4E7AC7;
+}
+ a:active; {
+	color: #4E7AC7;
 }
 
 #links li {
 	border: none;
-	
+
 
 }
 #links li a {
@@ -95,6 +131,7 @@ a:hover, a:active; {
 .sidepic {
 	position: relative;
 	margin-left: 24px;
+	opacity: 0.9;
 }
 .quote {
 	text-align: center;
@@ -112,20 +149,34 @@ a:hover, a:active; {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 50px;
+	margin-left:200px;
+	float
+	opacity: 0.8;
 }
 .article {
 	font-size: 20px;
 	padding: 10px;
 	margin-top: 16px;
+	padding-top:1px;
+	margin-left:185px;
+	margin-right: 105px;
+	opacity:0.8;
+	
 }
 
 .feedback {
 	float: left;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top:25px;
 }
 
-
+h2 {
+	margin-top: 20px;
+	opacity:0.7;
+	font-family: cursive;
+}
 
 
 .map{
@@ -154,7 +205,7 @@ ul#toc {
 ul#toc li{
 	background: #bdf url(tabs.gif);
 	float: left;
-	margin:0 1px 0 0;
+	margin:0 5px 0 0;
 	padding-left:10px;
 }
 ul#toc a{
@@ -170,9 +221,14 @@ ul#toc li.current a {
 	color: #fff;
 	font-weight: bold;
 }
-div.menu {
-	border: #48f solid 3px;
+.menu {
+	/*border: #48f solid 3px;*/
 	padding: 1em;
+	margin-top:14px;
+	width: 750px;
+	margin-left:200px;
+
+
 =======
 
 }
